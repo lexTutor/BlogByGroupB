@@ -7,13 +7,12 @@ namespace KingdomBlog.Models
     {
         public int PostId { get; set; }
 
-        public User PostCreator { get; set; }
+        public BlogUser PostCreator { get; set; }
 
         public int UserId { get; set; }
 
-        public ICollection<Category>  PostCategory { get; set; }
-
-        public ICollection<PostActivity> Comment { get; set; }
+        public virtual ICollection<PostCategories> PostCategories { get; set; }
+        public virtual ICollection<PostActivity> PostActivities { get; set; }
 
         public string PostDetails { get; set; }
 
