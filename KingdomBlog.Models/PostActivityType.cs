@@ -14,5 +14,8 @@ namespace KingdomBlog.Models
         [Required]
         public string PostActivity { get; set; }
 
+        public virtual ICollection<PostActivity> PostActivities { get; set;
+        }
+
     }
 }

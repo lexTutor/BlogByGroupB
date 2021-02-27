@@ -7,6 +7,7 @@ namespace KingdomBlog.Models
 {
     public class User
     {
+        public int UserId { get; set; }
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
@@ -27,7 +28,7 @@ namespace KingdomBlog.Models
 
         public string ProfilePhoto { get; set; }
 
-        public UserActivity UserActiity { get; set; }
+        public virtual ICollection<UserActivity> UserActivity { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
 

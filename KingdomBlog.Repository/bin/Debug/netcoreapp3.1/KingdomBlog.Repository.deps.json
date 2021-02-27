@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "KingdomBlog.Repository/1.0.0": {
+        "dependencies": {
+          "KingdomBlog.Models": "1.0.0"
+        },
+        "runtime": {
+          "KingdomBlog.Repository.dll": {}
+        }
+      },
+      "KingdomBlog.Models/1.0.0": {
+        "runtime": {
+          "KingdomBlog.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KingdomBlog.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KingdomBlog.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
