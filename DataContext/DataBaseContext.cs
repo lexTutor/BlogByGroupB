@@ -1,13 +1,14 @@
 ﻿using KingdomBlog.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 
 namespace DataContext
 {
-    public class DataBaseRelator : DbContext
+    public class DataBaseContext : IdentityDbContext
     {
-        public DbSet<User> User { get; set; }
+        public DbSet<BlogUser> BlogUser { get; set; }
 
         public DbSet<Post> Post {get; set;}
 
@@ -24,12 +25,6 @@ namespace DataContext
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<PostCategories> PostCategories { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-
-            optionsBuilder.UseSqlite("Data Source=.; initial catalog=MyNewDb;Integrated Security=True");
-        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

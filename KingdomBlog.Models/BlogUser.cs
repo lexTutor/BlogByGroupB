@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace KingdomBlog.Models
 {
-    public class User
+    public class BlogUser
     {
-        public int UserId { get; set; }
+        public int BlogUserId { get; set; }
         public string FirstName { get; set; }
 
         public string LastName { get; set; }

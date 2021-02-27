@@ -2,12 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using DataContext;
 using KingdomBlog.Models.ViewModels;
 
 namespace KingdomBlog.Repository
 {
     public class UserRepository : IUserRepository
     {
+       private DataBaseContext _dataBaseContext { get; }
+        public UserRepository(DataBaseContext dataBaseContext)
+        {
+            _dataBaseContext = dataBaseContext;
+        }
         public Task<bool> AddUser(UserRecieverView viewModel)
         {
             //Chukwuemeka

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace KingdomBlog.Models
 {
-    public class Role
+    public class BlogRoles
     {
         [Required]
         public string UserRole { get; set; }
@@ -11,6 +11,6 @@ namespace KingdomBlog.Models
         [Required]
         public int RoleId { get; set; }
 
-        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<BlogUser> Users { get; set; }
     }
 }

@@ -801,6 +801,7 @@
       },
       "KingdomBlog.Repository/1.0.0": {
         "dependencies": {
+          "DataContext": "1.0.0",
           "KingdomBlog.Models": "1.0.0"
         },
         "runtime": {

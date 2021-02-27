@@ -7,7 +7,7 @@ namespace KingdomBlog.Models
     {
         public int PostId { get; set; }
 
-        public User PostCreator { get; set; }
+        public BlogUser PostCreator { get; set; }
 
         public int UserId { get; set; }
 

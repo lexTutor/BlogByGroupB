@@ -1,4 +1,5 @@
-﻿using KingdomBlog.Models.ViewModels;
+﻿using DataContext;
+using KingdomBlog.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,6 +9,11 @@ namespace KingdomBlog.Repository
 {
     public class PostRepository : IPostRepository
     {
+        private DataBaseContext _dataBaseContext { get; }
+        public PostRepository(DataBaseContext dataBaseContext)
+        {
+            _dataBaseContext = dataBaseContext;
+        }
         public Task<bool> AddPost(PostViewModel viewModel)
         {
             //CHUKWUEMEKA
