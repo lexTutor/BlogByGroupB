@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WRaaqUE/naCkxiWKr1DRDn0qA+n0UE58zRcrBwm1/b4swarY+CgFJWrZf5mAbH0WkKq5Fr0GSth/s8y5UaTqMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog\\KingdomBlog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
