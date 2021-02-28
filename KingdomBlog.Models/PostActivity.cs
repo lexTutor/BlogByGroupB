@@ -8,16 +8,16 @@ namespace KingdomBlog.Models
 {
     public class PostActivity
     {
+        [Key]
         public int PostActivityiD { get; set; }
 
+        [Required]
         public Post Post { get; set; }
 
-        public int PostId { get; set; }
-
         [Required]
-        public int PostActivityTypeId { get; set; }
-
         public PostActivityType PostActivityType { get; set; }
+
+        public DateTime ActivityTime { get; set; } = DateTime.Now;
 
         [Required]
         public string UserFullName { get; set; }

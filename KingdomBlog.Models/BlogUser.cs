@@ -8,7 +8,8 @@ namespace KingdomBlog.Models
 {
     public class BlogUser
     {
-        public int BlogUserId { get; set; }
+        [Key]
+        public string BlogUserId { get; set; }
 
         [Required]
         public string FirstName { get; set; }
@@ -19,7 +20,7 @@ namespace KingdomBlog.Models
         [Required]
         public string EmailAddress { get; set; }
 
-        [Required]
+
         public byte[] PasswordHash { get; set; }
 
         public byte[] PasswordSalt { get; set; }
@@ -34,7 +35,7 @@ namespace KingdomBlog.Models
 
         public string ProfilePhoto { get; set; }
 
-        public virtual ICollection<UserActivity> UserActivity { get; set; }
+        public virtual ICollection<UserPostActivity> UserActivity { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
 
