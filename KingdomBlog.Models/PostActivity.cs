@@ -19,6 +19,8 @@ namespace KingdomBlog.Models
 
         public PostActivityType PostActivityType { get; set; }
 
+        public DateTime ActivityTime { get; set; } = DateTime.Now;
+
         [Required]
         public string UserFullName { get; set; }
 

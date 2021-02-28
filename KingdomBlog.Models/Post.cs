@@ -5,14 +5,16 @@ namespace KingdomBlog.Models
 {
     public class Post
     {
-        public int PostId { get; set; }
+        public string PostId { get; set; }
 
         public BlogUser PostCreator { get; set; }
 
-        public int UserId { get; set; }
+        public int PostCreatorId { get; set; }
 
         public virtual ICollection<PostCategories> PostCategories { get; set; }
         public virtual ICollection<PostActivity> PostActivities { get; set; }
+
+        public string PostTitle { get; set; }
 
         public string PostDetails { get; set; }
 

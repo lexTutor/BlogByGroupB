@@ -8,7 +8,7 @@ namespace KingdomBlog.Models
 {
     public class BlogUser
     {
-        public int BlogUserId { get; set; }
+        public string BlogUserId { get; set; } = Guid.NewGuid().ToString().Substring(2, 6);
 
         [Required]
         public string FirstName { get; set; }
@@ -19,7 +19,7 @@ namespace KingdomBlog.Models
         [Required]
         public string EmailAddress { get; set; }
 
-        [Required]
+
         public byte[] PasswordHash { get; set; }
 
         public byte[] PasswordSalt { get; set; }
