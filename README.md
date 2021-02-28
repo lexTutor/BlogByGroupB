@@ -39,7 +39,7 @@ Attach image
 
 ## Tests
 
-This project is congfigured with gitbhub actions for continuous integration and delivery, so tests run automatically when a pull request is created. However, if you have the project on your local machine you can run the test using your IDE's test explorer.
+This project is congfigured with github actions for continuous integration and delivery, so tests run automatically when a pull request is created. However, if you have the project on your local machine you can run  the test using your IDE's test explorer.
 The tests are meant to ensure that all codes integrated into the project are working correctly and without bugs.
 
 ## Deployment
