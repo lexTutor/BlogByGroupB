@@ -9,7 +9,7 @@ namespace KingdomBlog.Models
 
         public BlogUser PostCreator { get; set; }
 
-        public int PostCreatorId { get; set; }
+        public string PostCreatorId { get; set; }
 
         public virtual ICollection<PostCategories> PostCategories { get; set; }
         public virtual ICollection<PostActivity> PostActivities { get; set; }

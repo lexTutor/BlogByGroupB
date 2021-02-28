@@ -8,7 +8,8 @@ namespace KingdomBlog.Models
 {
     public class BlogUser
     {
-        public string BlogUserId { get; set; } = Guid.NewGuid().ToString().Substring(2, 6);
+        [Key]
+        public string BlogUserId { get; set; }
 
         [Required]
         public string FirstName { get; set; }
@@ -34,7 +35,7 @@ namespace KingdomBlog.Models
 
         public string ProfilePhoto { get; set; }
 
-        public virtual ICollection<UserActivity> UserActivity { get; set; }
+        public virtual ICollection<UserPostActivity> UserActivity { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
 

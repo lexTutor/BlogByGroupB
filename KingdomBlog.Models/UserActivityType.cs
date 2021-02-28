@@ -10,6 +10,6 @@ namespace KingdomBlog.Models
         [Required]
         public string ActivityTypeName { get; set; }
 
-        public virtual ICollection<UserActivity> UserActivities { get; set; }
+        public virtual ICollection<UserPostActivity> UserActivities { get; set; }
     }
 }

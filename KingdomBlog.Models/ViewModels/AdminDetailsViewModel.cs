@@ -6,7 +6,7 @@ namespace KingdomBlog.Models.ViewModels
 {
     public class AdminDetailsViewModel
     {
-        public int UserId { get;}
+        public string UserId { get;}
 
         public string FullName { get; set; }
 

@@ -18,7 +18,7 @@ namespace DataContext
 
         public DbSet<Post> Post {get; set;}
 
-        public DbSet<UserActivity> UserActivities { get; set; }
+        public DbSet<UserPostActivity> UserActivities { get; set; }
 
         public DbSet<UserActivityType> UserActivityTypes { get; set; }
 
@@ -31,6 +31,8 @@ namespace DataContext
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<PostCategories> PostCategories { get; set; }
+
+        public DbSet<UserDataActivity> UserDataActivity { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

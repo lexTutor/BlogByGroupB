@@ -10,6 +10,11 @@ namespace DataContext
     {
         public static void Seed(this ModelBuilder modelBuilder)
         {
+            string user1Guid;
+            string user2Guid;
+            string user3Guid;
+
+
             modelBuilder.Entity<BlogUser>().HasData(
             new BlogUser
             {
@@ -18,7 +23,8 @@ namespace DataContext
                 EmailAddress = "Holyspirit@Kingdom.God",
                 RoleId = 1,
                 PhoneNumber = "+2348166807840",
-                UserStory = "I am the way the truth and the life"
+                UserStory = "I am the way the truth and the life",
+                BlogUserId = user1Guid = Guid.NewGuid().ToString().Substring(2,6)
             },
              new BlogUser
              {
@@ -27,7 +33,8 @@ namespace DataContext
                  EmailAddress = "Peter@decagon.dev",
                  RoleId = 2,
                  PhoneNumber = "+2348123456789",
-                 UserStory = ""
+                 UserStory = "",
+                 BlogUserId = user2Guid = Guid.NewGuid().ToString().Substring(2, 6)
              },
              new BlogUser
              {
@@ -36,7 +43,8 @@ namespace DataContext
                  EmailAddress = "chukwuemekaokereke@decagon.dev",
                  RoleId = 2,
                  PhoneNumber = "+2348168360932",
-                 UserStory = ""
+                 UserStory = "",
+                 BlogUserId = user3Guid = Guid.NewGuid().ToString().Substring(2, 6)
              },
               new BlogUser
               {
@@ -45,7 +53,8 @@ namespace DataContext
                   EmailAddress = "Chibuikemakapakar@decagon.dev",
                   RoleId = 2,
                   PhoneNumber = "+2348166807840",
-                  UserStory = "Do not be decieved, Love is not blind, it just makes you close your eyes"
+                  UserStory = "Do not be decieved, Love is not blind, it just makes you close your eyes",
+                  BlogUserId = Guid.NewGuid().ToString().Substring(2, 6)
               }
             );
 
@@ -129,7 +138,7 @@ namespace DataContext
             new Post
             {
                 PostId = Guid.NewGuid().ToString().Substring(1, 5),
-                PostCreatorId = 1,
+                PostCreatorId = user1Guid,
                 PostTitle = "Salvation",
                 ApprovalState = 1,
                 LikeCount = 33,
@@ -148,7 +157,7 @@ namespace DataContext
              new Post
              {
                  PostId = Guid.NewGuid().ToString().Substring(1, 5),
-                 PostCreatorId = 2,
+                 PostCreatorId = user2Guid,
                  PostTitle = "Seeing Sharp",
                  ApprovalState = 1,
                  LikeCount = 31,
@@ -177,7 +186,7 @@ namespace DataContext
               new Post
               {
                   PostId = Guid.NewGuid().ToString().Substring(1, 5),
-                  PostCreatorId = 2,
+                  PostCreatorId = user3Guid,
                   PostTitle = "Seeing Sharp",
                   ApprovalState = 1,
                   LikeCount = 31,

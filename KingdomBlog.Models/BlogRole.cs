@@ -8,6 +8,7 @@ namespace KingdomBlog.Models
         [Required]
         public string UserRole { get; set; }
 
+        [Key]
         public int BlogRoleId { get; set; }
 
         public virtual ICollection<BlogUser> Users { get; set; }

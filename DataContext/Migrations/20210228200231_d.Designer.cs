@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataContext.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20210228133024_Initial")]
-    partial class Initial
+    [Migration("20210228200231_d")]
+    partial class d
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -102,7 +102,7 @@ namespace DataContext.Migrations
                     b.HasData(
                         new
                         {
-                            BlogUserId = "f18173-",
+                            BlogUserId = "df93f7",
                             EmailAddress = "Holyspirit@Kingdom.God",
                             FirstName = "Christ",
                             LastName = "Jesus",
@@ -112,7 +112,7 @@ namespace DataContext.Migrations
                         },
                         new
                         {
-                            BlogUserId = "92fa01-",
+                            BlogUserId = "96542b",
                             EmailAddress = "Peter@decagon.dev",
                             FirstName = "Peter",
                             LastName = "",
@@ -122,7 +122,7 @@ namespace DataContext.Migrations
                         },
                         new
                         {
-                            BlogUserId = "45a714-",
+                            BlogUserId = "58df0d",
                             EmailAddress = "chukwuemekaokereke@decagon.dev",
                             FirstName = "Chukwuemeka",
                             LastName = "Okereke",
@@ -132,7 +132,7 @@ namespace DataContext.Migrations
                         },
                         new
                         {
-                            BlogUserId = "2dd314-",
+                            BlogUserId = "82d75d",
                             EmailAddress = "Chibuikemakapakar@decagon.dev",
                             FirstName = "Chibuikem",
                             LastName = "Akpaka",
@@ -228,11 +228,8 @@ namespace DataContext.Migrations
                     b.Property<string>("Picture")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("PostCreatorBlogUserId")
+                    b.Property<string>("PostCreatorId")
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("PostCreatorId")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("PostDetails")
                         .HasColumnType("TEXT");
@@ -242,41 +239,41 @@ namespace DataContext.Migrations
 
                     b.HasKey("PostId");
 
-                    b.HasIndex("PostCreatorBlogUserId");
+                    b.HasIndex("PostCreatorId");
 
                     b.ToTable("Post");
 
                     b.HasData(
                         new
                         {
-                            PostId = "52561",
+                            PostId = "a4d54",
                             ApprovalState = 1,
                             ArticleCategoryId = 1,
-                            CreationDate = new DateTime(2021, 2, 28, 14, 30, 23, 154, DateTimeKind.Local).AddTicks(4717),
+                            CreationDate = new DateTime(2021, 2, 28, 21, 2, 30, 239, DateTimeKind.Local).AddTicks(9396),
                             LikeCount = 33,
-                            PostCreatorId = 1,
+                            PostCreatorId = "df93f7",
                             PostDetails = "I remember a conversation during college in which a friend confessed to me that he did not think it was necessary, or even possible, for a believer to gain assurance of their salvation. I was surprised by his comments, especially because we were attending a Christian college that emphasized all the biblical truths related to assurance of salvation: election, grace, faith, repentance, substitutionary atonement, the fully deity and humanity of Christ, and eternal security.As it turns out,this was not an isolated incident.Over the past several years as I’ve wrestled personally with the issue of assurance and had opportunity to speak to others about it,I’ve found that many Christians do not rightly understand the biblical basis or importance of this doctrine.Assurance is essential to genuine Christianity and central to the New Testament’s theological framework, yet plenty of Christians are content to walk through life without the sure knowledge that they belong to Christ.There are, of course, those who claim assurance who have no right to do so; but it seems that there are an equal number of professing Christians who have either resigned to the fact they will never have assurance or that they don’t really need it.",
                             PostTitle = "Salvation"
                         },
                         new
                         {
-                            PostId = "84097",
+                            PostId = "f9500",
                             ApprovalState = 1,
                             ArticleCategoryId = 2,
-                            CreationDate = new DateTime(2021, 2, 28, 14, 30, 23, 154, DateTimeKind.Local).AddTicks(7484),
+                            CreationDate = new DateTime(2021, 2, 28, 21, 2, 30, 240, DateTimeKind.Local).AddTicks(672),
                             LikeCount = 31,
-                            PostCreatorId = 2,
+                            PostCreatorId = "96542b",
                             PostDetails = "Future of C# Today, C# is not only a Windows development programming language but can be used to build Web applications, Windows store apps, and mobile apps including iOS and Android. C# can also do more than that. If you’ve not already read my article, I highly recommend going and reading What C# Can Do For You.At the Build 2016 event, Microsoft made several exciting announcements and one of them was integrating Xamarin as a part of Visual Studio “15” and beyond. Now C# developers can build iOS and Android apps that can spit out native iOS and Android code....the future of C# is very bright.In the following Channel 9 video, Microsoft’s Dustin Campbell and Mads Torgersen talk about the future of C#.Here are some of the bullet points from the video: You can write C# in any editor you want.C# is open source nowC# runs on Windows, Mac, and LinuxC# can be used to build Windows client apps, Windows Store apps, iOS apps, and Android aps and can also be used to build backend and middle-tier frameworks and libraries.C# (via Roslyn, the C# engine):Supports all IDEs and editorsAll the linters and analysis toolsAll the fixing and refactoring and code generation toolsAll the scripting and all the REPLsC# 7 comes with new features including tuples, record types, and pattern matching.C# is young and evolving.Unlike other programming languages, C# is still young and evolving. Now being open sourced, C# is getting community involvement and new features are being decided by community.The following table summarizes the improvements made in each newer version of the language.",
                             PostTitle = "Seeing Sharp"
                         },
                         new
                         {
-                            PostId = "7d2c7",
+                            PostId = "02150",
                             ApprovalState = 1,
                             ArticleCategoryId = 2,
-                            CreationDate = new DateTime(2021, 2, 28, 14, 30, 23, 154, DateTimeKind.Local).AddTicks(7569),
+                            CreationDate = new DateTime(2021, 2, 28, 21, 2, 30, 240, DateTimeKind.Local).AddTicks(721),
                             LikeCount = 31,
-                            PostCreatorId = 2,
+                            PostCreatorId = "58df0d",
                             PostDetails = "It’s 2020, four years from now. The campaign is under way to succeed the president, who is retiring after a single wretched term.Voters are angrier than ever—at politicians, at compromisers, at the establishment. Congress and the White House seem incapable of working together on anything, even when their interests align. With lawmaking at a standstill, the president’s use of executive orders and regulatory discretion has reached a level that Congress views as dictatorial—not that Congress can do anything about it, except file lawsuits that the divided Supreme Court, its three vacancies unfilled, has been unable to resolve.On Capitol Hill, Speaker Paul Ryan resigned after proving unable to pass a budget, or much else.The House burned through two more speakers and one “acting” speaker, a job invented following four speakerless months.The Senate, meanwhile, is tied in knots by wannabe presidents and aspiring talk - show hosts, who use the chamber as a social - media platform to build their brands by obstructing—well, everything.The Defense Department is among hundreds of agencies that have not been reauthorized, the government has shut down three times, and, yes, it finally happened: The United States briefly defaulted on the national debt, precipitating a market collapse and an economic downturn. No one wanted that outcome, but no one was able to prevent it.As the presidential primaries unfold, Kanye West is leading a fractured field of Democrats. The Republican front - runner is Phil Robertson, of Duck Dynasty fame. Elected governor of Louisiana only a few months ago, he is promising to defy the Washington establishment by never trimming his beard.Party elders have given up all pretense of being more than spectators, and most of the candidates have given up all pretense of party loyalty. On the debate stages, and everywhere else, anything goes.",
                             PostTitle = "Seeing Sharp"
                         });
@@ -297,10 +294,8 @@ namespace DataContext.Migrations
                     b.Property<string>("PostComment")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("PostId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("PostId1")
+                    b.Property<string>("PostId")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserFullName")
@@ -311,7 +306,7 @@ namespace DataContext.Migrations
 
                     b.HasIndex("PostActivityTypeId");
 
-                    b.HasIndex("PostId1");
+                    b.HasIndex("PostId");
 
                     b.ToTable("PostActivities");
                 });
@@ -359,38 +354,6 @@ namespace DataContext.Migrations
                     b.HasIndex("PostId1");
 
                     b.ToTable("PostCategories");
-                });
-
-            modelBuilder.Entity("KingdomBlog.Models.UserActivity", b =>
-                {
-                    b.Property<int>("UserActivityId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("ActivityTypeUserActivityTypeId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("BlogUserId")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("DeletedUserDetails")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("PostId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("PostId1")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("UserActivityId");
-
-                    b.HasIndex("ActivityTypeUserActivityTypeId");
-
-                    b.HasIndex("BlogUserId");
-
-                    b.HasIndex("PostId1");
-
-                    b.ToTable("UserActivities");
                 });
 
             modelBuilder.Entity("KingdomBlog.Models.UserActivityType", b =>
@@ -465,6 +428,60 @@ namespace DataContext.Migrations
                         });
                 });
 
+            modelBuilder.Entity("KingdomBlog.Models.UserDataActivity", b =>
+                {
+                    b.Property<int>("UserDataActivityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("ActivityTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("BlogUserId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserActivityTypeId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("UserDataActivityId");
+
+                    b.HasIndex("BlogUserId");
+
+                    b.HasIndex("UserActivityTypeId");
+
+                    b.ToTable("UserDataActivity");
+                });
+
+            modelBuilder.Entity("KingdomBlog.Models.UserPostActivity", b =>
+                {
+                    b.Property<int>("UserPostActivityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("ActivityTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("ActivityTypeUserActivityTypeId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("BlogUserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PostId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserPostActivityId");
+
+                    b.HasIndex("ActivityTypeUserActivityTypeId");
+
+                    b.HasIndex("BlogUserId");
+
+                    b.HasIndex("PostId");
+
+                    b.ToTable("UserActivities");
+                });
+
             modelBuilder.Entity("KingdomBlog.Models.BlogUser", b =>
                 {
                     b.HasOne("KingdomBlog.Models.BlogRole", "UserRole")
@@ -478,7 +495,7 @@ namespace DataContext.Migrations
                 {
                     b.HasOne("KingdomBlog.Models.BlogUser", "PostCreator")
                         .WithMany("Posts")
-                        .HasForeignKey("PostCreatorBlogUserId");
+                        .HasForeignKey("PostCreatorId");
 
                     b.Navigation("PostCreator");
                 });
@@ -493,7 +510,9 @@ namespace DataContext.Migrations
 
                     b.HasOne("KingdomBlog.Models.Post", "Post")
                         .WithMany("PostActivities")
-                        .HasForeignKey("PostId1");
+                        .HasForeignKey("PostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Post");
 
@@ -517,7 +536,24 @@ namespace DataContext.Migrations
                     b.Navigation("Post");
                 });
 
-            modelBuilder.Entity("KingdomBlog.Models.UserActivity", b =>
+            modelBuilder.Entity("KingdomBlog.Models.UserDataActivity", b =>
+                {
+                    b.HasOne("KingdomBlog.Models.BlogUser", "BlogUser")
+                        .WithMany()
+                        .HasForeignKey("BlogUserId");
+
+                    b.HasOne("KingdomBlog.Models.UserActivityType", "ActivityType")
+                        .WithMany()
+                        .HasForeignKey("UserActivityTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ActivityType");
+
+                    b.Navigation("BlogUser");
+                });
+
+            modelBuilder.Entity("KingdomBlog.Models.UserPostActivity", b =>
                 {
                     b.HasOne("KingdomBlog.Models.UserActivityType", "ActivityType")
                         .WithMany("UserActivities")
@@ -525,15 +561,19 @@ namespace DataContext.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("KingdomBlog.Models.BlogUser", null)
+                    b.HasOne("KingdomBlog.Models.BlogUser", "BlogUser")
                         .WithMany("UserActivity")
-                        .HasForeignKey("BlogUserId");
+                        .HasForeignKey("BlogUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("KingdomBlog.Models.Post", "Post")
                         .WithMany()
-                        .HasForeignKey("PostId1");
+                        .HasForeignKey("PostId");
 
                     b.Navigation("ActivityType");
+
+                    b.Navigation("BlogUser");
 
                     b.Navigation("Post");
                 });
