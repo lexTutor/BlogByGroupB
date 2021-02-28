@@ -68,4 +68,4 @@ Contributions are not allowed for this project for the time being. Thank you for
 ## Acknowledgments
 
 * Mr Francis .Net developer and Decagon C# stack lead [LinkToGitHub](https://github.com/cidospark)
-* Decagon C# stack associates 2020/2021
+* Decagon C# stack associates Squad006
