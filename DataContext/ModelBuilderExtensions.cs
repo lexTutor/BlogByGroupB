@@ -29,7 +29,7 @@ namespace DataContext
              new BlogUser
              {
                  FirstName = "Peter",
-                 LastName = "",
+                 LastName = "Adebimpe",
                  EmailAddress = "Peter@decagon.dev",
                  RoleId = 2,
                  PhoneNumber = "+2348123456789",

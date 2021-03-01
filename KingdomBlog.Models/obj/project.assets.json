@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
       "projectName": "KingdomBlog.Models",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\obj\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

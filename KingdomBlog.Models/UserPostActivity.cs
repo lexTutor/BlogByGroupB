@@ -6,7 +6,7 @@ namespace KingdomBlog.Models
     public class UserPostActivity
     {
         [Key]
-        public int UserPostActivityId { get; set; }
+        public string UserPostActivityId { get; set; }
 
         [Required]
         public BlogUser BlogUser { get; set; }

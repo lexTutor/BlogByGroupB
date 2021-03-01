@@ -35,6 +35,10 @@ namespace KingdomBlog.Models
 
         public string ProfilePhoto { get; set; }
 
+        public string Country { get; set; }
+
+        public string City { get; set; }
+
         public virtual ICollection<UserPostActivity> UserActivity { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }

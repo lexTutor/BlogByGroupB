@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CFFkC5tQ8R20MjJajl48tjsRl4WUKWjbsnRaCyjcf7gGB8eh/Eq6dq5cTLBubUkoKTBuQCpDJZFn5U1vUpLfxg==",
+  "dgSpecHash": "BneeZScz6J3cqPEDhxOV7adExVu8BdK5NEye4sjYMgRQa8achDacvdyT6MplUBNxmFNT1RPP7i+TGpuryQd2Ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog\\KingdomBlog.csproj",
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog\\KingdomBlog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.3\\microsoft.aspnetcore.cryptography.internal.5.0.3.nupkg.sha512",
