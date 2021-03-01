@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\KingdomBlog\\DataContext\\DataContext.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\DataContext\\DataContext.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\KingdomBlog\\DataContext\\DataContext.csproj": {
+    "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\DataContext\\DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\DataContext\\DataContext.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\DataContext\\DataContext.csproj",
         "projectName": "DataContext",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\DataContext\\DataContext.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\DataContext\\DataContext.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\DataContext\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\KingdomBlog.Models.csproj": {
-                "projectPath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\KingdomBlog.Models.csproj"
+              "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\KingdomBlog.Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\KingdomBlog.Models.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\KingdomBlog.Models.csproj": {
+    "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\KingdomBlog.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
         "projectName": "KingdomBlog.Models",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\KingdomBlog.Models.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\KingdomBlog\\KingdomBlog.Models\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\BlogByGroupB\\KingdomBlog.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -8,7 +8,7 @@ namespace KingdomBlog.Models
     public class UserDataActivity
     {
         [Key]
-        public int UserDataActivityId { get; set; }
+        public string UserDataActivityId { get; set; }
 
         [Required]
         public BlogUser BlogUser  { get; set; }
