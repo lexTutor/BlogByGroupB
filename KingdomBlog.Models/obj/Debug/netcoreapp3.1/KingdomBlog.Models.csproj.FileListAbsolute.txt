@@ -7,3 +7,12 @@ C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Models\obj\Debug\netcoreapp3.1\
 C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.dll
 C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.pdb
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\bin\Debug\netcoreapp3.1\KingdomBlog.Models.deps.json
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\bin\Debug\netcoreapp3.1\KingdomBlog.Models.dll
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\bin\Debug\netcoreapp3.1\KingdomBlog.Models.pdb
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.AssemblyInfo.cs
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.dll
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Models\obj\Debug\netcoreapp3.1\KingdomBlog.Models.pdb

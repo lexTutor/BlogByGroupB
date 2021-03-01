@@ -12,3 +12,17 @@ C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Repository\obj\Debug\netcoreapp
 C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.pdb
 C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\DataContext.dll
 C:\Users\hp\source\repos\KingdomBlog\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\DataContext.pdb
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\KingdomBlog.Repository.deps.json
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\KingdomBlog.Repository.dll
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\KingdomBlog.Repository.pdb
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\DataContext.dll
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\KingdomBlog.Models.dll
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\DataContext.pdb
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\bin\Debug\netcoreapp3.1\KingdomBlog.Models.pdb
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.AssemblyInfo.cs
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.csproj.CopyComplete
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.dll
+C:\Users\hp\source\repos\BlogByGroupB\KingdomBlog.Repository\obj\Debug\netcoreapp3.1\KingdomBlog.Repository.pdb

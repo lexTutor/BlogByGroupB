@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingdomBlog", "KingdomBlog\KingdomBlog.csproj", "{7AD4BAE3-6E0C-4358-9365-8DF7BD3A4CFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingdomBlog", "KingdomBlog\KingdomBlog.csproj", "{7AD4BAE3-6E0C-4358-9365-8DF7BD3A4CFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingdomBlog.Models", "KingdomBlog.Models\KingdomBlog.Models.csproj", "{9DEAB55D-3BD9-4A50-9BC4-8B8910165BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingdomBlog.Models", "KingdomBlog.Models\KingdomBlog.Models.csproj", "{9DEAB55D-3BD9-4A50-9BC4-8B8910165BBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingdomBlog.Repository", "KingdomBlog.Repository\KingdomBlog.Repository.csproj", "{BE81041B-DFBE-4E81-8774-9A9328E8A2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingdomBlog.Repository", "KingdomBlog.Repository\KingdomBlog.Repository.csproj", "{BE81041B-DFBE-4E81-8774-9A9328E8A2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContext", "DataContext\DataContext.csproj", "{D73808D1-4E60-4D3F-9BFC-E565A178F84B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataContext", "DataContext\DataContext.csproj", "{D73808D1-4E60-4D3F-9BFC-E565A178F84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogTest", "BlogTest\BlogTest.csproj", "{CE10564C-C66E-41C3-876E-224BB70DE2A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D73808D1-4E60-4D3F-9BFC-E565A178F84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D73808D1-4E60-4D3F-9BFC-E565A178F84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D73808D1-4E60-4D3F-9BFC-E565A178F84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE10564C-C66E-41C3-876E-224BB70DE2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE10564C-C66E-41C3-876E-224BB70DE2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE10564C-C66E-41C3-876E-224BB70DE2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE10564C-C66E-41C3-876E-224BB70DE2A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

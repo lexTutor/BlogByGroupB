@@ -9,7 +9,7 @@ namespace KingdomBlog.Models
     public class PostActivity
     {
         [Key]
-        public int PostActivityiD { get; set; }
+        public string PostActivityiD { get; set; }
 
         [Required]
         public Post Post { get; set; }

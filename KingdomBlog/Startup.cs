@@ -1,4 +1,5 @@
 using DataContext;
+using DataContext.Migrations;
 using KingdomBlog.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,7 +28,7 @@ namespace KingdomBlog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataBaseContext>(options => options.UseSqlite(Configuration.GetConnectionString("DefaulltConnection")));
+            services.AddDbContextPool<DataBaseContext>(options => options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllersWithViews();
             //services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<DataBaseContext>();
         }
@@ -45,7 +46,7 @@ namespace KingdomBlog
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            app.UseHttpsRedirection(); //remove
             app.UseStaticFiles();
 
             app.UseRouting();
