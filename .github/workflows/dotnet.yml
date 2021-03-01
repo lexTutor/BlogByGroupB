@@ -3,7 +3,7 @@ name: BlogIt
 on:
   pull_request:
     branches:
-      - master
+      - Main
 
 jobs:
   build_ums:
