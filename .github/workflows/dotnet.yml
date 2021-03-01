@@ -1,0 +1,20 @@
+name: BlogIt
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build_ums:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build and deploy the Docker image
+      env: 
+        HEROKU_API_KEY: 6784ecfc-5606-40b2-8798-77d1bbf109a4
+        APP_NAME: ${{ 'blogitdemo' }}
+      run: |
+        docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+        heroku container:push web -a $APP_NAME
+        heroku container:release web -a $APP_NAME
